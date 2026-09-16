@@ -178,7 +178,7 @@ En el nuevo paquete `sv.edu.utec.api`:
 En el paquete `sv.edu.utec.api`, cree la clase `ProveedorAPI` con el método:
 
 ```java
-public List<Producto> obtenerProductos(int limite) throws IOException, InterruptedException
+public List<Producto> obtenerProductos(int limite) throws IOException, InterruptedException;
 ```
 
 El método debe:
