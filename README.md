@@ -296,14 +296,35 @@ git push origin main
 
 ## Parcial 2 — Consumo de API (completar por el estudiante)
 
-**Nombre:** _________________________________ · **Carnet:** ______________
+**Nombre:** Adrián de Jesús Jacinto Vega · **Carnet:** 25-4552-2024
 
 ### Salida de consola (segunda ejecución)
 
 ```
-(pegue aquí la salida completa de la segunda ejecución de Main)
+insertados: 0 | actualizados: 10
+
+--- Inventario sincronizado ---
+ID    PRODUCTO                            CANTIDAD  
+1     Essence Mascara Lash Princess       99        
+2     Eyeshadow Palette with Mirror       34        
+3     Powder Canister                     89        
+4     Red Lipstick                        91        
+5     Red Nail Polish                     79        
+6     Calvin Klein CK One                 29        
+7     Chanel Coco Noir Eau De             58        
+8     Dior J'adore                        98        
+9     Dolce Shine Eau de                  4         
+10    Gucci Bloom Eau de                  91        
+
 ```
 
 ### Uso de inteligencia artificial
 
-(Declare si utilizó alguna herramienta de IA, cuál y para qué. Si no la utilizó, indíquelo.)
+Me vi a la manera de usar Ia principalmente de forma de orientación de código soy una persona que conoce
+lo básico mas este ejercicio en particular tenia complejidad a la hora de implementar todo desde el crud 
+hasta el servicio la verdad me perdi bastante y se me complico avanzar use ia para saber como 
+implementar lo que tenia en mi cabeza a pasarlo en codigo use ia para saber el esquema, la aplicación 
+del código mismo para que funcione. Hiba tratando de entender el porque de cada cosa para saber el 
+propósito de x respuesta en lo personal es de los códigos mas completos que realiado durante la carrera a nivel
+de exigencias en materias pasadas era un codigo normal, este codigo me desafio y a buscar ayuda de la ia para
+lograr cumplir con la tarea pero a la vez aprendiendo.
