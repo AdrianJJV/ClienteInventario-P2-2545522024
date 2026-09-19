@@ -23,17 +23,21 @@ public class SincronizacionService {
         this.proveedorAPI = proveedorAPI;
     }
 
-    public int sincronizarConProveedor(int limite) throws IOException, InterruptedException, SQLException {
+    public int[] sincronizar(int limite) throws IOException, InterruptedException, SQLException {
         List<Producto> productosProveedor = proveedorAPI.obtenerProductos(limite);
-        int guardados = 0;
+        int insertados = 0;
+        int actualizados = 0;
 
         for (Producto prod : productosProveedor) {
-            if (!productoDAO.existe(prod.getId())) {
+            if (productoDAO.existe(prod.getId())) {
+                productoDAO.actualizar(prod);
+                actualizados++;
+            } else {
                 productoDAO.insertar(prod);
-                guardados++;
+                insertados++;
             }
         }
 
-        return guardados;
+        return new int[]{insertados, actualizados};
     }
 }
